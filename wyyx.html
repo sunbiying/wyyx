@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>网易严选</title>
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./font/iconfont.css">
+	<link rel="stylesheet" href="./css/style.css">
+
+	<style>	
+	/*图片展示区*/
+		.banner-1{
+			height: 420px;	
+			animation-name: move;
+			animation-duration: 24s;
+			animation-iteration-count: infinite;		
+		}
+		@keyframes move{
+			0%{
+				background: url("./images/t1.jpg") center no-repeat;
+			}
+			14%{
+				background: url("./images/t2.jpg") center no-repeat;
+			}
+			28%{
+				background: url("./images/t3.jpg") center no-repeat;
+			}
+			42%{
+				background: url("./images/t4.jpg") center no-repeat;
+			}
+			56%{
+				background: url("./images/t5.jpg") center no-repeat;
+			}
+			70%{
+				background: url("./images/t6.jpg") center no-repeat;
+			}
+            84%{
+				background: url("./images/t7.jpg") center no-repeat;
+			}
+			100%{
+				background: url("./images/t8.jpg") center no-repeat;
+			}
+		}
+		/*产品列表1*/
+		.products-bt .ptop-2{
+			position: absolute;
+			top:48px; 
+			left: 240px;
+			font-size: 11px;
+			color: #fff;
+			width: 32px;
+			height: 21px;
+			text-align: center;
+			background: url("./images/sx.png") center no-repeat;
+			margin-left: 2px;
+			line-height: 19px;
+			}
+			/*产品列表1*/
+	    .wraper .prodts-t .s-x{
+	    	font-size: 11px;
+	    	color: #fff;
+           background: url("./images/sx.png")0 0 no-repeat;
+		}
+        .prodts-t1 .prodts-top1 .s-x1{
+        	font-size: 11px;
+	    	color: #fff;
+           background: url("./images/sx.png")0 0 no-repeat;
+        }
+		/*产品列表4*/
+		.products3{
+			height: 540px;
+			box-sizing: border-box;
+		}		
+		.products3 .title3{
+			height: 120px;
+			width: 1090px;
+			margin: 0 auto;
+			padding-top: 3em;
+      		box-sizing: border-box;
+		}
+		.products3 .title3::after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.products3 .title3 h2{
+			width: 140px;
+			font-size: 28px;
+			margin-right: 20px;
+      		float: left;
+		}
+		.products3 .title3 h2:hover{
+			color: #b19e7a;
+		}
+		.products3 .title3 .gengduo3{
+			height: 30px;
+			width: 115px;
+			padding-top: 15px;
+			margin-right: -30px;
+			float: right;
+		}
+		.products3 .title3 .gengduo3:hover{
+			color: #b19e7a;
+		}
+		.products3 .wrap3{
+			height: 377px;
+			width: 1090px;
+			margin: -1em auto;
+			box-sizing: border-box;
+		}
+		.wrap3-title{
+	      	font-size: 26px;
+	      	font-weight: 500;
+	      	color: #61594b;
+		}
+		.line-20{
+			width: 20px;
+			height: 2px;
+			background-color: #61594b;
+			margin: 1em auto 0;
+		}
+	    .font16{
+	    	font-size: 18px;
+	    	color: #615548;    	
+	    	margin-top: 15px;
+	    }
+   		.wrap3 >.wrap3-lt{
+		    width: 224px;
+	    	height: 377px;
+	    	float: left;
+	    	padding-top: 60px;
+	    	background: url("./images/xsgmm.jpg")center center no-repeat #fff;
+	    	box-sizing: border-box;
+	       	text-align: center;
+	       	cursor: pointer;
+		}
+		.wrap3-lt .times{
+			margin-top: 20px;
+			font-size: 18px;
+			line-height: 40px;			
+		}
+		.wrap3-lt .times>li{
+			display: inline-block;
+			width: 40px;
+			height: 40px;
+			background-color: #615548;
+			color: #fff;
+			border-radius: 2px;
+			margin-right: 3px;
+		}
+		.wrap3-lt .times >.dd{
+			width: 14px;
+		}
+		.wrap3-lt .butn{
+			background-color: #a7936e;
+			width: 110px;
+			height: 30px;
+			line-height: 30px;
+			margin: 3em auto;
+			color: #fff;
+			border-radius: 15px;
+		}
+		.wrap3 >.wrap3-rt{
+			width: 866px;
+	    	height: 377px;
+	    	margin-left: 224px;
+	    	box-sizing: border-box;
+		}
+		.wrap3 .wrap3-rt>li {
+			float: left;			
+			height: 189px;
+			width: 433px;
+			border-right: 1px solid #f0ece4;
+			border-top: 1px solid #f0ece4;
+			box-sizing: border-box;
+		}
+		.wrap3 .wrap3-rt::after{
+			content: "";
+			display: block;
+			clear: both;
+		}		
+	    .wrap3 >.wrap3-rt >li:nth-child(3),
+	    .wrap3 >.wrap3-rt >li:nth-child(4){
+	    	border-bottom: 1px solid #f0ece4;
+	    }	
+	    .wrap3-rt .w3-left{
+	    	width: 180px;
+	    	height: 180px;
+	    	float: left;
+	    }
+	    .wrap3-rt .w3-right{
+	    	width: 252px;
+	    	height: 187px;
+	      margin-left: 180px;
+	      text-align: left;
+	      padding-top: 15px;
+	    }
+	    .w3-right h2{
+	    	font-size: 16px;
+	    	font-weight: 400;
+	    	margin-bottom: 5px;
+	    	white-space: nowrap;
+	      	text-overflow: ellipsis;
+	     	overflow: hidden;
+	      	cursor: pointer;
+	    }
+	    .w3-right h2:hover{
+	    	color: #b4a078;
+	    }
+	    .w3-right p{
+	    	color: #999;
+	    	white-space: nowrap;
+	      	text-overflow: ellipsis;
+	      	overflow: hidden;
+	    }
+	    .w3-right>ul{
+	    	width: 252px;
+	    	height: 35px;
+	    }
+	    .w3-right>ul >li{
+	    	float: left;
+	    	margin-top: 10px;
+	    }
+	    .w3-right .jdut{
+	    	width: 150px;
+	    	margin-right: 5px;
+	    }
+	    .w3-right .jdut1{
+	    	width: 90px;
+	    }
+	    .progress {
+		   	border-radius: .5em;
+		   	border: 1px solid #f2cecd;
+		   	overflow:hidden;
+	     }
+	    .progress .progress-bar {
+		    height: 1em;
+	    	background-color: #ffe5e5;
+	     	width: 90%;
+	    }
+	    .w3-right .x-price{
+	    	color:#be4141;
+	    }
+	    .w3-right .xs-price{
+	    	font-size: 24px;
+	    	font-weight: 700;
+	    }
+	    .w3-right .y-price{
+	    	color:#999;
+	    }
+	    .w3-right .ys-price{
+	    	text-decoration: line-through;
+	    }
+	    .w3-right .buton{
+	    	background-color: #be4141;
+	      	color: #fff;
+	      	width: 118px;
+	     	height: 31px;
+	      	text-align: center;
+	      	margin-top: 18px;
+	      	line-height: 30px;
+	      	border-radius: 5px;
+	      	font-size: 16px;
+	      	cursor: pointer;
+	    }
+    	/*产品列表5*/
+	    .wrap4 .fuls{
+	       animation: fulis 6s infinite;多
+	    }
+	    @keyframes fulis{
+	    	0%{
+	    		background: url("./images/fuli1.jpg") 0 0 no-repeat;
+	    	}
+	    	100%{
+	    		background: url("./images/fuli2.jpg") 0 0 no-repeat;
+	    	}
+	    }
+	</style>
+</head>
+<body>
+    <div class="container">
+    <!-- 头部开始 -->
+     <!-- 顶部框 -->
+     <div class="header-tip">
+       <div class="header-wrap">
+     	  	<a href="http://you.163.com/story" target="_blank">好的生活，没那么贵</a>
+     	  	<div class="gb">
+         		<img src="./images/lab.gif" alt="">&nbsp;&nbsp;<a  href="http://you.163.com/downloadapp?channel=aos_pd_41" target="_blank">【福利】下载严选APP，抢1元包邮团，领...</a>
+     	  	</div> 
+     	  	<div class="header-right">
+     	  		<ul class="link-top">
+     	  	  		<li style="width:80px"><a href="#">登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">注册</a>
+     	  	  		</li>
+     	  	  		<li style="width:65px"><a href="http://you.163.com/order/myList"	target="_blank">我的订单</a></li>
+     	  	  		<li style="width:40px"><a href="http://you.163.com/membership/index"	target="_blank">会员</a></li>
+     	  	  		<li style="width:55px"><a href="http://you.163.com/membership/index"	target="_blank">甄选家</a></li>
+     	  			<li style="width:65px"><a href="http://you.163.com/membership/index"	target="_blank">企业采购</a></li>
+     	  			<li class="k1-tip" style="width:75px"><a href="http://you.163.com/membership/index"	target="_blank">客户服务</a><i class="iconfont icon-arrow-up2 icon-arrow"></i>
+     	  				<div class="k-tip">
+		     	  			<ul>
+		     	  				<li><a href="#">在线客服</a></li>
+		     	  				<li><a href="#">帮助中心</a></li>
+		     	  				<li><a href="#">商务合作</a></li>
+		     	  				<li><a href="#">开放平台</a></li>
+		     	  			</ul>
+     	  				</div>
+     	  			</li>
+     	  			<li style="width:50px"><i class="iconfont icon-shouji shji"></i><a href="http://you.163.com/downloadapp?_stat_from=web_out_cps_duomai_0"	target="_blank">APP</a></li>
+     	  		</ul>
+     	  	</div>
+     	 </div>
+     </div>
+     <!-- 标题 -->
+     <div class="header">
+    	<div class="header-center">
+    		<img class="yanxuan" src="./images/tb_03.png" alt="找不见">
+    		<form>
+		      <input list="browsers" type="text" class="lists"  placeholder="甜品鲜花七夕浪漫上新">
+			    <datalist id="browsers">
+			      <option value="大家都在搜">大家都在搜</option>
+			      <option value="七夕美食99选9">七夕美食99选9</option>
+			      <option value="七夕定制礼物">七夕定制礼物</option>
+			      <option value="床品满300减100">床品满300减100</option>
+			      <option value="爆款电器特价">爆款电器特价</option>
+			      <option value="洗护美妆买4免1">洗护美妆买4免1</option>
+			    </datalist>
+	      </form>
+	      <div><i class="iconfont icon-sousuo sous"></i></div>
+	      <div><i class="iconfont icon-gouwuchekong gwe"></i></div>
+    	</div>
+    	 <!-- 导航栏 -->
+    	<ul class="nav">
+		   <li><a href="#"><strong>首页</strong></a></li>
+		   <li>
+		    <a href="#"><strong>居家</strong></a>
+		    <div class="sub-nav">
+		    	<ul >
+		    		<li><a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000" target="_blank"><img src="./images/1.png" alt="zhaobudao"><p>夏凉</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000" target="_blank"><img src="./images/2.png" alt="zhaobudao"><p>床品件套</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000" target="_blank"><img src="./images/3.png" alt="zhaobudao"><p>被枕</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000" target="_blank"><img src="./images/4.png" alt="zhaobudao"><p>家具</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000" target="_blank"><img src="./images/5.png" alt="zhaobudao"><p>灯具</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000" target="_blank"><img src="./images/6.png" alt="zhaobudao"><p>收纳</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000" target="_blank"><img src="./images/7.png" alt="zhaobudao"><p>布艺软装</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000" target="_blank"><img src="./images/8.png" alt="zhaobudao"><p>家饰</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000" target="_blank"><img src="./images/9.png" alt="zhaobudao"><p>旅行用品</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000" target="_blank"><img src="./images/10.png" alt="zhaobudao"><p>晾晒除味</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000" target="_blank"><img src="./images/12.png" alt="zhaobudao"><p>家庭医疗</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000" target="_blank"><img src="./images/13.png" alt="zhaobudao"><p>宠物</p></a></li>
+		    	</ul>
+		    </div>
+		   </li>
+		   <li>
+		   <a href="#"><strong>鞋包配饰</strong></a>
+		   <div class="sub-nav">
+		    	<ul >
+		    		<li><a href="http://you.163.com/item/list?categoryId=1008000&_stat_area=nav_3&_stat_referer=index" target="_blank"><img src="./images/01.png" alt="zhaobudao"><p>行李箱</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1008000&_stat_area=nav_3&_stat_referer=index" target="_blank"><img src="./images/02.png" alt="zhaobudao"><p>女士包袋</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1008000&_stat_area=nav_3&_stat_referer=index" target="_blank"><img src="./images/03.png" alt="zhaobudao"><p>男士包袋</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1008000&_stat_area=nav_3&_stat_referer=index" target="_blank"><img src="./images/04.png" alt="zhaobudao"><p>钱包及小皮件</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1008000&_stat_area=nav_3&_stat_referer=index" target="_blank"><img src="./images/05.png" alt="zhaobudao"><p>女鞋</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1008000&_stat_area=nav_3&_stat_referer=index" target="_blank"><img src="./images/06.png" alt="zhaobudao"><p>男鞋</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1008000&_stat_area=nav_3&_stat_referer=index" target="_blank"><img src="./images/07.png" alt="zhaobudao"><p>拖鞋</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1008000&_stat_area=nav_3&_stat_referer=index" target="_blank"><img src="./images/08.png" alt="zhaobudao"><p>鞋配</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1008000&_stat_area=nav_3&_stat_referer=index" target="_blank"><img src="./images/09.png" alt="zhaobudao"><p>袜子</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1008000&_stat_area=nav_3&_stat_referer=index" target="_blank"><img src="./images/010.png" alt="zhaobudao"><p>丝袜</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1008000&_stat_area=nav_3&_stat_referer=index" target="_blank"><img src="./images/011.png" alt="zhaobudao"><p>配饰</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1008000&_stat_area=nav_3&_stat_referer=index" target="_blank"><img src="./images/012.png" alt="zhaobudao"><p>眼镜</p></a></li>
+		    		<li><a href="http://you.163.com/item/list?categoryId=1008000&_stat_area=nav_3&_stat_referer=index" target="_blank"><img src="./images/013.png" alt="zhaobudao"><p>围巾件套</p></a></li>
+		    	</ul>
+		    </div>
+		   </li>
+		    <li><a href="#"><strong>服装</strong></a>
+         <div class="sub-nav">
+		    	<ul >
+		    		<li><a href="#"><img src="./images/101.png" alt="zhaobudao"><p>T恤</p></a></li>
+		    		<li><a href="#"><img src="./images/102.png" alt="zhaobudao"><p>运动</p></a></li>
+		    		<li><a href="#"><img src="./images/103.png" alt="zhaobudao"><p>牛仔</p></a></li>
+		    		<li><a href="#"><img src="./images/104.png" alt="zhaobudao"><p>Yessing轻运动</p></a></li>
+		    		<li><a href="#"><img src="./images/105.png" alt="zhaobudao"><p>女士上装</p></a></li>
+		    		<li><a href="#"><img src="./images/106.png" alt="zhaobudao"><p>女士外套</p></a></li>
+		    		<li><a href="#"><img src="./images/107.png" alt="zhaobudao"><p>女士下装</p></a></li>
+		    		<li><a href="#"><img src="./images/108.png" alt="zhaobudao"><p>男士上装</p></a></li>
+		    		<li><a href="#"><img src="./images/109.png" alt="zhaobudao"><p>男士下装</p></a></li>
+		    		<li><a href="#"><img src="./images/1010.png" alt="zhaobudao"><p>男士外套</p></a></li>
+		    		<li><a href="#"><img src="./images/1011.png" alt="zhaobudao"><p>男士内衣内裤</p></a></li>
+		    		<li><a href="#"><img src="./images/1012.png" alt="zhaobudao"><p>女士内衣内裤</p></a></li>
+		    		<li><a href="#"><img src="./images/1013.png" alt="zhaobudao"><p>男士家居服</p></a></li>
+		    		<li><a href="#"><img src="./images/1014.png" alt="zhaobudao"><p>女士家居服</p></a></li>
+		    	</ul>
+		    </div>  
+		    </li>
+		    <li><a href="#"><strong>电器</strong></a></li>
+		    <li><a href="#"><strong>洗护</strong></a></li>
+		    <li><a href="#"><strong>饮食</strong></a></li>
+		    <li><a href="#"><strong>餐厨</strong></a></li>
+		    <li><a href="#"><strong>婴童</strong></a></li>
+		    <li><a href="#"><strong>文体</strong></a></li>
+		    <li><a href="#"><strong>特色区</strong></a></li>
+		    <li><a href="#"><strong>为你严选</strong></a></li>
+		    <li><a href="#"><strong>众筹</strong></a></li>
+	    </ul>
+    	</div>
+    	<!-- 头部结束 -->
+    	<!-- 广告1开始 -->
+    	<div class="banner-1">
+    		
+    	</div>
+    	<!-- 广告1结束 -->
+
+      <!--  产品列表1  1090 = 5 *2 +360*3-->
+        
+        <div class="products">
+          <div class="title"><a href="http://you.163.com/manufacturer/list?_stat_area=manufacturer_link&_stat_referer=index" target="_blank"><h3>品牌制造商</h3></a>
+          <small>工厂直达消费者，剔除品牌溢价</small>
+          <a class="gengduo" href="http://you.163.com/manufacturer/list?_stat_area=manufacturer_link&_stat_referer=index" target="_blank">更多制造商  ></a>
+          </div>
+          <div class="products-bt">
+        	<ul>
+        		<li>
+        			<div class="prodts-t1">
+                  	 <div class="prodts-top1">
+                  	   <span class="hw">海外制造商</span>
+                  	   <span class="s-x1">上新</span>
+                  	 </div>
+                  	 <div class="prodts-center">9.9元起</div>
+                  	<img src="./images/p1.png" alt="zbd">
+                  </div>       		 
+        		</li>
+        		<li>
+        			<div class="prodts-t1">
+                  	 <div class="prodts-top1">
+                  	   <span class="hw">新秀丽制造商</span>
+                  	   <span class="s-x1">上新</span>
+                  	 </div>
+                  	 <div class="prodts-center">49.9元起</div>
+                  	<img src="./images/p2.png" alt="zbd">
+                  </div>
+        		</li>
+        		<li class="wraper">
+                  <div class="prodts-t">
+                  	 <div class="prodts-top">
+                  	   <span class="ck">CK制造商</span>
+                  	   <span class="s-x">上新</span>
+                  	 </div>
+                  	 <div class="prodts-cen">25元起</div>
+                  	<img src="./images/p3.png" alt="zbd">
+                  </div>
+        		</li>
+        		<li class="wraper">
+                  <div class="prodts-t">
+                  	 <div class="prodts-top">
+                  	   <span class="ck">Nine West制造商</span>
+                  	   <span class="s-x">上新</span>
+                  	 </div>
+                  	 <div class="prodts-cen">209元起</div>
+                  	<img src="./images/p4.png" alt="zbd">
+                  </div>
+        		</li>
+        	</ul>
+          </div>
+        </div>
+        <!-- 产品列表1结束 -->
+        <!-- 产品列表2  265*4+ 10*3 =1090-->
+        <div class="products1">
+          <div class="title1"><a href="http://you.163.com/item/newItem?_stat_area=newItem_link&_stat_referer=index" target="_blank"><h3>新品首发</h3></a>
+          <small>为你寻觅世间好物</small>
+          <a class="gengduo1" href="http://you.163.com/item/newItem?_stat_area=newItem_link&_stat_referer=index" target="_blank">更多新品  ></a>
+          </div>
+        	<ul>
+        		<li>
+        		  <div class="wrapper1">
+        		  	<ul class="box1">
+        		  			<li><img src="./images/x12.jpg" alt="zhaobd"></li>
+        		  			<li><img src="./images/x11.png" alt="zhaobd"></li>
+        		  	</ul>
+        		  	<div class="dertion1">
+        		  		<div class="der1-bq"><span>七夕推荐</span></div>
+        		  		<h4>韩国设计 14K金珍珠母贝项链</h4>
+        		  		<div class="price1">￥799</div>
+        		  	</div>
+        		  </div>
+        		</li>
+        		<li>
+        			<div class="wrapper1">
+                      <div class="destion">韩国制造</div>
+        		  	<ul class="box1">
+        		  			<li><img src="./images/x22.jpg" alt="zhaobd"></li>
+
+        		  			<li><img src="./images/x21.png" alt="zhaobd"></li>
+        		  	</ul>
+        		  	<div class="dertion1">
+        		  		<div class="der1-bq"><span>七夕推荐</span></div>
+        		  		<h4>韩国设计 14K金珍珠母贝手链</h4>
+        		  		<div class="price1">￥599</div>
+        		  	</div>
+        		  </div>
+        		</li>
+        		<li>
+        			<div class="wrapper1">
+        		  	<ul class="box1">
+        		  			<li><img src="./images/x122.jpg" alt="zhaobd"></li>
+        		  			<li><img src="./images/x2222.png" alt="zhaobd"></li>
+        		  	</ul>
+        		  	<div class="dertion1">
+        		  		<div class="der1-bq"></div>
+        		  		<h4>小怪兽多用摆件</h4>
+        		  		<div class="price1">￥69</div>
+        		  	</div>
+        		  </div>
+        		</li>
+        		<li>
+        			<div class="wrapper1">
+        		  	<ul class="box1">
+        		  			<li><img src="./images/x42.jpg" alt="zhaobd"></li>
+        		  			<li><img src="./images/x41.png" alt="zhaobd"></li>
+        		  	</ul>
+        		  	<div class="dertion1">
+        		  		<div class="der1-bq"></div>
+        		  		<h4>网易智造X1舒耳蓝牙耳机</h4>
+        		  		<div class="price1">￥79</div>
+        		  	</div>
+        		  </div>
+        		</li>
+        	</ul>
+        </div>
+
+        <!--  产品列表3 400+ 10 *3 +220*3 -->
+        <div class="products2">
+          <div class="wrap">
+            <div class="title2">
+            	<a href="http://you.163.com/item/recommend?_stat_area=pop_more&_stat_referer=index" target="_blank"><h2>人气推荐</h2></a>
+            	<small class="tj1">编辑推荐</small><small class="tj2">热销总榜</small>
+              <a class="gengduo2" href="http://you.163.com/item/recommend?_stat_area=pop_more&_stat_referer=index" target="_blank">更多推荐  ></a>
+            </div>
+            <ul>
+        		<li>
+        			<div class="wrapper21">
+		            <div class="box21">
+			           <a href="#"><img src="./images/xcq.png" alt="找不到"></a>
+		            </div>
+	            </div>
+	            <div class="rqtj">
+	            	<div class="xsgo"><span class="itemtag">限时购</span></div>
+	            	<h4><a href="#"><span>网易制造T300无线吸尘器</span></a></h4>
+	            	<p class="price"><span class="rprice">￥1311</span><span class="yprice">￥1599</span></p>
+	            </div>
+        		</li>
+        		<li>
+        			<div class="wrapper2">
+		            <div class="box2"><a href="#"><img src="./images/r3.png" alt="找不到"></a></div></div>
+		          <div class="rqtj1">
+	            	<div class="xsgo1"><span class="itemtag">限时购</span></div>
+	            	<h2><a href="#"><span>20寸全镁铝合金登机箱</span></a></h2>
+	            	<p class="price-1"><span class="rp-rice1">￥629.1</span><span class="yp-rice">￥699</span></p>
+	            </div>
+        		</li>
+        		<li>
+        			<div class="wrapper2">
+		            <div class="box2"><a href="#"><img src="./images/r4.png" alt="找不到"></a>
+		            </div></div>
+		          <div class="rqtj1">
+	            	<div class="xsgo1"><span class="itemtag">限时购</span></div>
+	            	<h2><a href="#"><span>100年传世珐琅锅 全家系列</span></a></h2>
+	            	<p class="price-1"><span class="rp-rice1">￥314.5</span><span class="yp-rice">￥398</span></p>
+	            </div>
+        		</li>
+        		<li>
+        			<div class="wrapper2">
+		            <div class="box2"><a href="#"><img src="./images/g4.png" alt="找不到"></a>
+		            </div></div>
+		          <div class="rqtj1">
+	            	<div class="xsgo1"><span class="itemtag">限时购</span></div>
+	            	<h2><a href="#"><span>网易智造减压眼部按摩仪</span></a></h2>
+	            	<p class="price-1"><span class="rp-rice1">￥379</span><span class="yp-rice">￥449</span></p>
+	            </div>
+        		</li>
+        		<li>
+        			<div class="wrapper2">
+		            <div class="box2"><a href="#"><img src="./images/sy.png" alt="找不到"></a>
+		            </div></div>
+		          <div class="rqtj2">
+	            	<div class="xsgo2"><span class="itemtag1">服装特惠</span>&nbsp;&nbsp;<span class="itemtag1">满赠</span></div>
+	            	<h2><a href="#"><span>女士真丝睡衣</span></a></h2>
+	            	<p class="price-1"><span class="rp-rice1">￥495.38</span><span class="yp-rice">￥799</span></p>
+	              </div>
+        		</li>
+        		<li>
+        			<div class="wrapper2">
+		            <div class="box2"><a href="#"><img src="./images/ys.png" alt="找不到"></a></div></div>
+		            <div class="rqtj2">
+	            	<div class="xsgo2"><span class="itemtag1">电器特惠</span>&nbsp;&nbsp;<span class="itemtag1">满赠</span></div>
+	            	<h2><a href="#"><span>全净皓齿变速式声波电动牙刷</span></a></h2>
+	            	<p class="price-1"><span class="rp-rice1">￥208</span><span class="yp-rice">￥219</span></p>
+	              </div>
+        		</li>
+        		<li>
+        			<div class="wrapper2">
+		            <div class="box2"><a href="#"><img src="./images/g2.png" alt="找不到"></a></div></div>
+		          <div class="rqtj1">
+	            	<div class="xsgo1"><span class="itemtag">限时购</span></div>
+	            	<h2><a href="#"><span>泰国制造 天然乳胶枕 护颈按摩升级款</span></a></h2>
+	            	<p class="price-1"><span class="rp-rice1">￥169.2</span><span class="yp-rice">￥199</span></p>
+	            </div>
+        		</li>
+        	</ul>
+          </div>   	
+        </div>
+        <!-- 产品列表3结束 -->
+        
+        <!-- 产品列表4开始 -->
+        <div class="products3">          
+           <div class="title3">
+            	<a href="http://you.163.com/flashSale/index?_stat_area=mod_limit_more&_stat_referer=index" target="_blank"><h2>限时购</h2></a>           
+              <a class="gengduo3" href="http://you.163.com/flashSale/index?_stat_area=mod_limit_more&_stat_referer=index" target="_blank">更多抢购  ></a>
+           </div>
+           <!-- 限时购内容 -->
+           <div class="wrap3">
+           <!-- 限时购左边 -->
+            <div class="wrap3-lt">
+            	<h1 class="wrap3-title">10点场</h1>
+            	<div class="line-20"></div>
+            	<p class="font16">距离结束还剩</p>
+            	<ul class="times">
+            		<li>03</li><span class="dd">:</span>
+            		<li>00</li><span class="dd">:</span>
+            		<li>13</li>
+            	</ul>
+            	<div class="butn">查看全部 ></div>
+            </div>
+            <!-- 限时购右边 -->
+            <ul class="wrap3-rt">
+              	<li>
+              		<div class="w3-left">
+              			<div class="box2"> <a href="#"><img src="./images/g5.png" alt="找不到"></a></div>
+              		</div>
+              		<div class="w3-right">
+              			<h2><a href="#"></a>多功能私享按摩椅</h2>
+              			<p>选款师力荐 专属私人按摩师</p>
+              			<ul>
+									    <li class="jdut">
+										    <div class="progress">
+											    <div class="progress-bar"></div>
+										    </div>
+									    </li>
+									    <li class="jdut1"><p>还剩300件</p></li>
+								    </ul>
+              			<span class="x-price">限时价<span class="xs-price">￥1699.2</span></span>
+              			<span class="y-price">原价<span class="ys-price">￥1999</span>
+              			<div class="buton">立即抢购</div>
+              		</div>
+              	</li>
+              	<li>
+              		<div class="w3-left">
+              			<div class="box2"> <a href="#"><img src="./images/g6.png" alt="找不到"></a></div>
+              		</div>
+              		<div class="w3-right">
+                    <h2><a href="#"></a>男士基础合体窄脚牛仔裤</h2>
+              			<p>低腰收脚口，时髦始终如一</p>
+              			<ul>
+									    <li class="jdut">
+										    <div class="progress">
+											    <div class="progress-bar"></div>
+										    </div>
+									    </li>
+									    <li class="jdut1"><p>还剩1040件</p></li>
+								    </ul>
+              			<span class="x-price">限时价<span class="xs-price">￥97</span></span>
+              			<span class="y-price">原价<span class="ys-price">￥139</span>
+              			<div class="buton">立即抢购</div>
+              		</div>
+              	</li>
+              	<li>
+              		<div class="w3-left">
+              			<div class="box2"> <a href="#"><img src="./images/g7.png" alt="找不到"></a></div>
+              		</div>
+              		<div class="w3-right">
+                    <h2><a href="#"></a>网易青果 高清网络智能摄像头 专门用于</h2>
+              			<p>专业摄像高清视野</p>
+              			<ul>
+									    <li class="jdut">
+										    <div class="progress">
+											    <div class="progress-bar"></div>
+										    </div>
+									    </li>
+									    <li class="jdut1"><p>还剩240件</p></li>
+								    </ul>
+              			<span class="x-price">限时价<span class="xs-price">￥328</span></span>
+              			<span class="y-price">原价<span class="ys-price">￥388</span>
+              			<div class="buton">立即抢购</div>
+              		</div>
+              	</li>
+              	<li>
+              		<div class="w3-left">
+              			<div class="box2"> <a href="#"><img src="./images/g8.png" alt="找不到"></a></div>
+              		</div>
+              		<div class="w3-right">
+                    <h2><a href="#"></a>升级款日式针织羽丝绒夏凉被</h2>
+              			<p>亲肤透气，裸睡空调房好搭配</p>
+              			<ul>
+									    <li class="jdut">
+										    <div class="progress">
+											    <div class="progress-bar"></div>
+										    </div>
+									    </li>
+									    <li class="jdut1"><p>还剩240件</p></li>
+								    </ul>
+              			<span class="x-price">限时价<span class="xs-price">￥134.3</span></span>
+              			<span class="y-price">原价<span class="ys-price">￥179</span>
+              			<div class="buton">立即抢购</div>
+              		</div>
+              	</li>
+            </ul>
+        		
+          </div>   	
+        </div>
+        <!-- 产品列表4结束 -->
+
+        <!-- 产品列表5开始 -->
+        <div class="products4">          
+           <div class="title4">
+            	<a href="http://you.163.com/act/pub/5ZGgdhblFT.html" target="_blank"><h2>福利社</h2></a>           
+              <a class="gengduo4" href="http://you.163.com/act/pub/5ZGgdhblFT.html" target="_blank">查看全部福利  ></a>
+           </div>
+           <div class="wrap4">
+            <ul>
+        		<li class="fuls"><a href="http://you.163.com/act/pub/5ZGgdhblFT.html" target="_blank"></a></li>
+        		<li>
+        			<div class="flis2">
+        				<div class="flis2-top">
+        				  <span class="tejia">今日特价</span>
+        				  <span class="ckall">查看全部 ></span>
+        				</div>
+        				<div class="flis2-center">
+        					<ul>
+        						<li>
+        							<div class="flis2-cen-lt">
+        								<a href="#"><img src="./images/tj1.png" alt="zbd"></a>
+        								<div class="flis2-cen-lt-bq">
+        									<span class="flis2-cen-lt-bq1">9</span>
+        									<span class="flis2-cen-lt-bq2">折</span>
+        								</div>
+        							</div>
+        							<div class="flis2-cen-rt">
+        								<div class="flis2-cen-rt-t">
+        							    	<div class="flis2-cen-ti">IH电饭煲</div>
+        									<div class="flis2-cen-titl">
+        									  <span class="flis2-p1">限时价￥</span>
+        									  <span class="flis2-p12">449</span></div>
+        									<div class="flis2-cen-tit">
+        										<span class="flis2-p2">原价</span>
+        										<span class="flis2-p22">￥499</span>
+        									</div>
+        								</div>
+        								<div class="flis2-cen-rt-b">立即抢购</div>
+        							</div>
+        						</li>
+        						<li>
+        							<div class="flis2-cen-lt">
+        								<a href="#"><img src="./images/tj2.png" alt="zbd"></a>
+        								<div class="flis2-cen-lt-b1">
+        									<span class="flis2-cen-lt-b11">9.5</span>
+        									<span class="flis2-cen-lt-b12">折</span>
+        								</div>
+        							</div>
+        							<div class="flis2-cen-rt">
+        								<div class="flis2-cen-rt-t">
+        							    	<div class="flis2-cen-ti">全净皓齿变速式声波电动牙刷</div>
+        									<div class="flis2-cen-titl">
+        									  <span class="flis2-p1">限时价￥</span>
+        									  <span class="flis2-p12">208</span></div>
+        									<div class="flis2-cen-tit">
+        										<span class="flis2-p2">原价</span>
+        										<span class="flis2-p22">￥219</span>
+        									</div>
+        								</div>
+        								<div class="flis2-cen-rt-b">立即抢购</div>
+        							</div>
+        						</li>
+        						<li>
+        							<div class="flis2-cen-lt">
+        								<a href="#"><img src="./images/tj3.jpg" alt="zbd"></a>
+        								<div class="flis2-cen-lt-bq">
+        									<span class="flis2-cen-lt-bq1">8</span>
+        									<span class="flis2-cen-lt-bq2">折</span>
+        								</div>
+        							</div>
+        							<div class="flis2-cen-rt">
+        								<div class="flis2-cen-rt-t">
+        							    	<div class="flis2-cen-ti">全棉针织条纹四件套 新款</div>
+        									<div class="flis2-cen-titl">
+        									  <span class="flis2-p1">限时价￥</span>
+        									  <span class="flis2-p12">239.2</span></div>
+        									<div class="flis2-cen-tit">
+        										<span class="flis2-p2">原价</span>
+        										<span class="flis2-p22">￥299</span>
+        									</div>
+        								</div>
+        								<div class="flis2-cen-rt-b">立即抢购</div>
+        							</div>
+        						</li>
+        						<li>
+        							<div class="flis2-cen-lt">
+        								<a href="#"><img src="./images/tj4.png" alt="zbd"></a>
+        								<div class="flis2-cen-lt-b1">
+        									<span class="flis2-cen-lt-b11">8.5</span>
+        									<span class="flis2-cen-lt-b12">折</span>
+        								</div>
+        							</div>
+        							<div class="flis2-cen-rt">
+        								<div class="flis2-cen-rt-t">
+        							    	<div class="flis2-cen-ti">泰国制造 天然乳胶床垫 5CM标准</div>
+        									<div class="flis2-cen-titl">
+        									  <span class="flis2-p1">限时价￥</span>
+        									  <span class="flis2-p12">1699.2</span></div>
+        									<div class="flis2-cen-tit">
+        										<span class="flis2-p2">原价</span>
+        										<span class="flis2-p22">￥1999</span>
+        									</div>
+        								</div>
+        								<div class="flis2-cen-rt-b">立即抢购</div>
+        							</div>
+        						</li>
+        					</ul>
+        				</div>
+        			</div>
+        		</li>
+        		<li>
+        			<div class="fulishe-rt1">
+                      <div class="fulishe-rt1-t">
+                      	<span class="lfth">量贩囤货</span>
+        			    <span class="kall">全部 ></span>
+                      </div>
+        			  <ul>
+        				<li>
+        					<div class="fulishe-rt1-l">
+        					  <a href="#"><img src="./images/tj6.png" alt="zbd"></a>
+        					</div>
+        					<div class="fulishe-rt1-r">
+        						<p>棉质生活 婴儿纯棉柔巾</p>
+        						<div class="fls-price">
+        							<span class="fls-xprice">￥12.8</span>
+        							<span class="fls-yprice">￥69</span>
+        							<i class="iconfont icon-tubiaozhizuomoban1"></i>
+        						</div>
+        					</div>
+        				</li>
+        				<li>
+        					<div class="fulishe-rt1-l">
+        					  <a href="#"><img src="./images/tj7.png" alt="zbd"></a>
+        					</div>
+        					<div class="fulishe-rt1-r">
+        						<p>防滑大衣架 3件装</p>
+        						<div class="fls-price">
+        							<span class="fls-xprice">￥17.9</span>				
+        							<i class="iconfont icon-tubiaozhizuomoban1"></i>
+        						</div>
+        					</div>
+        				</li>
+        			  </ul>
+        			</div>
+        			<div class="fulishe-rt1">
+                      <div class="fulishe-rt1-t">
+                      	<span class="lfth">今日APP价</span>
+        			    <span class="kall">全部 ></span>
+                      </div>
+        			  <ul>
+        				<li>
+        					<div class="fulishe-rt1-l">
+        					  <a href="#"><img src="./images/tj8.png" alt="zbd"></a>
+        					</div>
+        					<div class="fulishe-rt1-r">
+        						<p>女式纯棉撞色家居服</p>
+        						<div class="fls-price">
+        							<span class="fls-xprice">￥193.1</span>
+        							<span class="fls-yprice">￥199</span>
+        							<i class="iconfont icon-tubiaozhizuomoban1"></i>
+        						</div>
+        					</div>
+        				</li>
+        				<li>
+        					<div class="fulishe-rt1-l">
+        					  <a href="#"><img src="./images/tj9.png" alt="zbd"></a>
+        					</div>
+        					<div class="fulishe-rt1-r">
+        						<p>麦饭石天然矿泉水 24瓶</p>
+        						<div class="fls-price">
+        							<span class="fls-xprice">￥72.8</span>	
+        							<span class="fls-yprice">￥75</span>			
+        							<i class="iconfont icon-tubiaozhizuomoban1"></i>
+        						</div>
+        					</div>
+        				</li>
+        			  </ul>
+        			</div>
+        		</li>        		
+        	</ul>
+          </div>   	
+        </div>
+        <!-- 产品列表5结束 -->
+
+        <!-- 产品列表6开始 -->
+        <div class="products5">          
+           <div class="title5">
+            	<a href="http://you.163.com/item/list?categoryId=1005000&_stat_area=mod_1_up_1&_stat_referer=index" target="_blank"><h2>居家</h2></a>           
+              <div class="sub-jujia">
+              	<span><a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000&_stat_area=mod_1_right_0&_stat_referer=index" target="_blank">夏凉</a></span>
+              	<span><b class="spilt">/</b>
+              	<a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000&_stat_area=mod_1_right_0&_stat_referer=index" target="_blank">床品件套</a></span>
+              	<span><b class="spilt">/</b>
+              	<a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000&_stat_area=mod_1_right_0&_stat_referer=index" target="_blank">被枕</a></span>
+              	<span><b class="spilt">/</b>
+              	<a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000&_stat_area=mod_1_right_0&_stat_referer=index" target="_blank">家具</a></span>
+              	<span><b class="spilt">/</b>
+              	<a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000&_stat_area=mod_1_right_0&_stat_referer=index" target="_blank">收纳</a></span>
+              	<span><b class="spilt">/</b>
+              	<a href="http://you.163.com/item/list?categoryId=1005000&subCategoryId=1036000&_stat_area=mod_1_right_0&_stat_referer=index" target="_blank">布艺软装</a></span>
+              </div>
+
+              <a class="gengduo5" href="http://you.163.com/item/list?categoryId=1005000&_stat_area=mod_1_up_1&_stat_referer=index" target="_blank">查看更多  ></a>
+           </div>
+           <div class="wrap5">
+            <ul>
+        		<li><a href="#"><img src="./images/juj.jpg" alt="找不到"></a></li>
+        		<li>
+        			<div class="wrapper5">
+		            <div class="box5">
+			           <a href="#"><img src="./images/tcd.png" alt="找不到"></a>
+		            </div>		         
+	            </div> 
+	            <div class="direction5">
+		            	<div class="dir5-p1"><h4>冬夏两用 护脊椰棕弹簧床垫</h4></div>
+		            	<div class="dir5-p2">￥2099</div>
+		          </div>
+        		</li>
+        		<li>
+        			<div class="wrapper5">
+        			  <div class="description5">5色可选</div>
+		            <div class="box5">
+			           <a href="#"><img src="./images/sjt.jpg" alt="找不到"></a>
+		            </div>
+	            </div>
+	            <div class="direction-5">
+	                <div class="dir-p1">爆品</div>
+		            	<div class="dir-p2"><h4>新色 轻便保暖办公居家多用绒毯</h4></div>
+		            	<div class="dir-p3">￥19</div>
+		          </div>
+        		</li> 
+        		<li>
+        			<div class="wrapper5">
+        			  <div class="description5">4色可选</div>
+		            <div class="box5">
+			           <a href="#"><img src="./images/rt.png" alt="找不到"></a>
+		            </div>
+	            </div>
+	            <div class="direction5">
+		            	<div class="dir5-p1"><h4>新色 轻便保暖办公居家多用绒毯</h4></div>
+		            	<div class="dir5-p2">￥19</div>
+		          </div>
+        		</li>
+        		<li>
+        			<div class="wrapper5">
+		            <div class="box5">
+			           <a href="#"><img src="./images/qx.png" alt="找不到"></a>
+		            </div>
+	            </div>
+	            <div class="direction5">
+		            	<div class="dir5-p1"><h4>球形洗衣网</h4></div>
+		            	<div class="dir5-p2">￥12.9</div>
+		          </div>
+        		</li>       		
+        	</ul>
+          </div>   	
+        </div>
+        <!-- 产品列表6结束 -->
+
+        <!-- 产品列表7开始 -->
+        <div class="products6">          
+           <div class="title6">
+            	<h2>甄选家</h2><small>我们在寻找，对生活有态度的你</small>
+           </div>
+           <div class="wrap6">
+            <ul>
+        		<li><a href="http://you.163.com/expert/tryout?_stat_referer=index" target="_blank"><img src="./images/ypsy.jpg" alt="找不到"></a></li>
+        		<li><a href="http://you.163.com/expert/advice?_stat_referer=index" target="_blank"><img src="./images/jyzj.jpg" alt="找不到"></a></li>
+        		<li><a href="http://you.163.com/expert/sample?_stat_referer=index" target="_blank"><img src="./images/yszx.jpg" alt="找不到"></a></li>        		
+        	</ul>
+          </div>   	
+        </div>
+        <!-- 产品列表7结束 -->
+
+        <!-- 产品列表8开始 -->
+        <div class="products7">          
+           <div class="title7">
+            	<h2>大家都在说</h2><small>生活，没有统一标准</small>
+           </div>
+           <div class="wrap7">
+            <ul>
+        		<li>
+        		  <div class="w7-top">
+        		  	<img src="./images/z1.jpg" alt="zbd">
+        		  </div>
+        		  <div class="w7-bottom">
+        		  	<div class="w7-bottom-1">
+        		  		<span class="w7-bm-11">l****4</span>
+        		  		<span class="w7-bm-12">2018-08-17 08:28</span>
+        		  	</div>
+        		  	<div class="w7-bottom-2">
+        		  		<h2>寿司素肉 200克</h2>
+        		  		<span class="w7-bm-22">￥12</span>
+        		  	</div>
+        		  	<div class="w7-bottom-3">我一般不吃豆干，就是零食里面的甜太多，胃里不舒服吃太多甜。换个口味，就是惊呆了。真的像肉~名副其实肉感十足超市里叫素肉的我吃过的没有一款像这个，开辟了零食的新境界[色]</div>
+        		  </div>
+        		</li>
+        		<li>
+        			<div class="w7-top">
+        		  	<img src="./images/z2.jpg" alt="zbd">
+        		  </div>
+        		  <div class="w7-bottom">
+        		  	<div class="w7-bottom-1">
+        		  		<span class="w7-bm-11">幸****程</span>
+        		  		<span class="w7-bm-12">2018-08-17 08:30</span>
+        		  	</div>
+        		  	<div class="w7-bottom-2">
+        		  		<h2>网易智造 埃菲尔蓝牙音箱-白</h2>
+        		  		<span class="w7-bm-22">￥169</span>
+        		  	</div>
+        		  	<div class="w7-bottom-3">买了用了好久才充电，这电池的续航能力也是太强大了，音质不错，真的使用起来还不错，心情好好*^_^*</div>
+        		  </div>
+        		</li>
+        		<li>
+        			<div class="w7-top">
+        		  	<img src="./images/z3.jpg" alt="zbd">
+        		  </div>
+        		  <div class="w7-bottom">
+        		  	<div class="w7-bottom-1">
+        		  		<span class="w7-bm-11">z****3</span>
+        		  		<span class="w7-bm-12">2018-08-17 03:57</span>
+        		  	</div>
+        		  	<div class="w7-bottom-2">
+        		  		<h2>日式双层纱长裙</h2>
+        		  		<span class="w7-bm-22">￥149</span>
+        		  	</div>
+        		  	<div class="w7-bottom-3">衬衣很舒服，森系，给姑娘也买了一件粉色的，母女亲子装</div>
+        		  </div>
+        		</li> 
+        		<li>
+        			<div class="w7-top">
+        		  	<img src="./images/z5.jpg" alt="zbd">
+        		  </div>
+        		  <div class="w7-bottom">
+        		  	<div class="w7-bottom-1">
+        		  		<span class="w7-bm-11">董****森</span>
+        		  		<span class="w7-bm-12">2018-08-16 03:57</span>
+        		  	</div>
+        		  	<div class="w7-bottom-2">
+        		  		<h2>谷风一木 软抽面巾纸</h2>
+        		  		<span class="w7-bm-22">￥16.9</span>
+        		  	</div>
+        		  	<div class="w7-bottom-3">质感非常好，性价比很高。第一次知道严选的时候就被画面和色调等吸引了，然后下单了发现东西质量也很好，值得购买</div>
+        		  </div>
+        		</li> 
+        		<li>
+        			<div class="w7-top">
+        		  	<img src="./images/z6.jpg" alt="zbd">
+        		  </div>
+        		  <div class="w7-bottom">
+        		  	<div class="w7-bottom-1">
+        		  		<span class="w7-bm-11">1****1</span>
+        		  		<span class="w7-bm-12">2018-08-15 06:07</span>
+        		  	</div>
+        		  	<div class="w7-bottom-2">
+        		  		<h2>网易智造X3 Plus蓝牙HiFi耳机</h2>
+        		  		<span class="w7-bm-22">￥199</span>
+        		  	</div>
+        		  	<div class="w7-bottom-3">可能是我听惯重低音有点不适应，续航比我想象的要好，越用越喜欢</div>
+        		  </div>
+        		</li>       		   		
+        	</ul>
+          </div>   	
+        </div>
+        <!-- 产品列表8结束 -->
+        <!-- 旁边侧栏开始 -->
+        <div class="aside">
+			    <ul>
+				   <li><img src="./images/qixi.gif" alt=""></li>
+				   <li class="aside-lw"><i class="iconfont icon-liwu lw1"></i><p>新人有礼</p></li>
+				   <li class="aside-tip1"><img src="./images/vas.png" alt="找不到">
+				    <h4>扫码领</h4><p>APP1000元</p><p>新人礼</p>
+				   </li>
+				   <li>
+				    <div class="dingyue">
+					  <i class="iconfont icon-xinhao .dy-xh"></i><p>订阅电子刊</p></div>
+				    <div class="tip">
+				        <img src="./images/tip.png" alt="" >
+				        <p  class="shenghuo"><strong>严选生活美学</strong></p>
+				        <p  class="dianzi">订阅电子刊，第一时间获取严选最新资讯</p>
+				        <input type="text"  placeholder="输入您的电子邮件">
+				        <ul>
+				        	<li><a href="#">专属优惠</a></li>
+				        	<li><a href="#">尊享优先购</a></li>
+				        	<li><a href="#">好货不错过</a></li>
+				        </ul>				    	
+				    </div>
+				  </li>
+				  <li><div class="zaixian"><i class="iconfont icon-kefu zx-kf"></i>
+				  <p>在线客服</p></div></li>
+			  </ul>
+		</div>
+
+        <!-- 旁边侧栏结束 -->
+         
+        <!-- 底部开始 -->
+      <div class="footer">
+        <div class="footer-top">
+        	<div class="footer-left">
+        		<p>客户服务</p>
+        		<div class="kefu"><i class="iconfont icon-kefu"></i><div class="kf">在线客服</div></div>
+        		<div class="fanku"><i class="iconfont icon-message"></i><div class="fk">用户反馈</div></div>
+        	</div>
+        	<div class="footer-center">
+        	 <p class="ti-tle">何为严选</p>
+        	 <p>网易原创生活类电商品牌，秉承网易一贯的严谨态度，我们深入世界各地，从源头全程严格把控商品生产环节，力求帮消费者甄选到优质的商品</p>
+           <div class="guanzhu"><span>关注我们：</span>    
+             <div class="guanzhu1">
+               <i class="iconfont icon-yixin yixin"></i>
+               <div class="guanzhu1-k">
+                <!-- <i class="iconfont icon-arrRight-fill"></i> -->
+               	<img src="./images/yix.png" alt="zbd">
+               </div>
+             </div>
+             <div class="guanzhu1">
+              <i class="iconfont icon-weixin wxin"></i>
+               <div class="guanzhu1-k">
+               	<img src="./images/weix.png" alt="zbd">
+               </div>
+             </div>
+             <i class="iconfont icon-weibo wbo"></i>
+           </div>
+        	</div>
+        	<div class="footer-right">
+        		<p>扫码下载严选APP</p><img src="./images/canvas.png" alt="找不见">
+        		<div>下载领1000元新人礼包</div>
+        	</div>
+        </div>
+        <div class="footer-bottom">
+        	<div class="footer-wrap">
+        		<div class="footer-title">
+        			<ul>
+        				<li><img src="./images/foot_03.png" alt="找不到"><div>30天无忧退换货</div></li>
+        				<li><img src="./images/foot_05.png" alt="找不到"><div>满88元免邮费</div></li>
+        				<li><img src="./images/foot_07.png" alt="找不到"><div>网易品质保证</div></li>
+        			</ul>        			
+        		</div>
+        		<div class="footer-link">
+        				<ul class="link-wrapper">
+        					<li><a href="http://you.163.com/story">关于我们</a></li>
+        					<li><a href="http://you.163.com/help/new">帮助中心</a></li>
+        					<li><a href="http://you.163.com/help/new#6">售后服务</a></li>
+        					<li><a href="http://you.163.com/help/new#3">配送与验收</a></li>
+        					<li><a href="http://you.163.com/help/new#39">商务合作</a></li>
+        					<li><a href="http://b.you.163.com/?from=yx">企业采购</a></li>
+        					<li><a href="https://open.you.163.com/">开放平台</a></li>
+        					<li><a href="http://you.163.com/product/keywords?letter=A&page=1">搜索推荐</a></li>
+        					<li><a href="http://you.163.com/friendLink">友情链接</a></li>
+        				</ul>
+        				<p><a href="http://yanxuan.nosdn.127.net/e1fff54c8226f29e3c87ab117c5d67bc.jpg?imageView">网易公司版权所有 © 1997-2018   食品经营许可证：JY13301080111719 出版物经营许可证：新出发滨字第0132号 单用途商业预付卡备案证：330100AAC0024</a></p>
+        				<img src="./images/tb.gif" alt="找不到">
+        		</div>
+        	</div>
+        </div>
+      </div>
+        <!-- 底部结束 -->
+
+    </div>	
+</body>
+</html>
